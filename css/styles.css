@@ -156,6 +156,19 @@ img {
 
 /* Section 2. Features */
 
+.icon-place {
+  margin-bottom: 8px;
+  padding: 24px 0;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  background: #f4f4fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 112px;
+}
+
 .features {
   background-color: #fff;
   padding: 120px 0;
