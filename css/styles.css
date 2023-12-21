@@ -262,10 +262,11 @@ img {
   text-align: center;
 }
 
-.social-list {
+.social-media-list {
   display: flex;
   justify-content: center;
   gap: 24px;
+  
 }
 
 .social-media-employee-link {
@@ -407,6 +408,10 @@ img {
   align-items: center;
 }
 
+.social-media-employee-link:focus,
+.social-media-employee-link:hover {
+  background-color: #404bbf;
+}
 .social-media-employee-link.down-green:focus,
 .social-media-employee-link.down-green:hover {
   background-color: #31d0aa;
