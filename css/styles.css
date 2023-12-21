@@ -246,6 +246,8 @@ img {
   background-color: #ffffff;
   width: calc((100% - 48px) / 3);
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .company-employees-name {
@@ -266,7 +268,6 @@ img {
   display: flex;
   justify-content: center;
   gap: 24px;
-  
 }
 
 .social-media-employee-link {
@@ -412,6 +413,7 @@ img {
 .social-media-employee-link:hover {
   background-color: #404bbf;
 }
+
 .social-media-employee-link.down-green:focus,
 .social-media-employee-link.down-green:hover {
   background-color: #31d0aa;
