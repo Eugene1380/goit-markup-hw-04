@@ -357,6 +357,11 @@ img {
   padding: 100px 0;
 }
 
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
 .footer-logo {
   margin-bottom: 16px;
   display: inline-block;
