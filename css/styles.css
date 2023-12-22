@@ -121,10 +121,24 @@ img {
 /* Section 1. Hero */
 
 .hero {
-  background-color: #2e2f42;
   padding: 188px 0;
-  margin-left: auto;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/img-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 1440px;
   margin-right: auto;
+  margin-left: auto;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .hero-title {
@@ -153,6 +167,8 @@ img {
   border-radius: 4px;
   margin: 0 auto;
   margin-top: 48px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:hover,
