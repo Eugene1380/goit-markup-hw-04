@@ -99,8 +99,6 @@ img {
   color: #404bbf;
 }
 
-/* Underline */
-
 .header-menu-link.active::after {
   content: '';
   display: block;
@@ -112,8 +110,6 @@ img {
   height: 4px;
   border-radius: 2px;
 }
-
-/* End underline */
 
 .header-contacts-item {
   display: block;
